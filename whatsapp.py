@@ -1,10 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
-from re import sub
-from decimal import Decimal
 
-driver=webdriver.Chrome("/Users/Aleti Sunil/Downloads/setupFiles/chromedriver.exe")
+driver=webdriver.Chrome("/Users/Aleti Sunil/Downloads/setupFiles/chromedriver.exe") #Enter chrome driver location
 driver.maximize_window()
 driver.get("https://web.whatsapp.com/")
 sleep(15)
@@ -16,7 +14,7 @@ file="Nee kallani patuku vadalananavi Choode na kallu Aa chupulanalla thokuku ve
 for i in file:
     driver.find_element_by_xpath("//*/footer/div[1]/div[2]/div/div[2]").send_keys(i)
     driver.find_element_by_xpath("//*/footer/div[1]/div[2]/div/div[2]").send_keys(Keys.ENTER)
-    #driver.find_element_by_xpath("/html/body/div/div/div/div/div/footer/div/div[2]/button/span").click()
+    
 
 
 
