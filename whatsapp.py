@@ -9,7 +9,6 @@ driver.get("https://web.whatsapp.com/")
 sleep(15)
 driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div[1]/div/div/div[1]/div/div/div").click()
 sleep(5)
-print("done")
 fileLocation= ""  #Enter location of movie script file
 with open(fileLocation,"r") as file:
     for line in file:
