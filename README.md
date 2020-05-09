@@ -1,7 +1,9 @@
 # Whatsapp_Spam
-A python script to text the entire movie script one word at a time through whatsapp using selenium
+A python script to text the entire movie script one word at a time through whatsapp using selenium in python
 
-Prerequisites:
-Python
-Selenium
-webdriver (I used Chrome webdriver)
+<ul>
+  <b>Prerequisites:</b>
+<li>Python</li>
+<li>Selenium</li>
+<li>webdriver (I used Chrome webdriver)</li>
+</ul>
